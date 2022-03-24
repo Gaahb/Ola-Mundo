@@ -1,2 +1,5 @@
-# Ola Mundo
- primeiro repositorio c
+# Olá, Mundo
+ primeiro repositorio 
+
+ primeiras configuraçoes
+ 
