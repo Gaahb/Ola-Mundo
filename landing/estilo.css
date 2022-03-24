@@ -1,0 +1,94 @@
+body{
+    background-color: black;
+   color: beige;
+    font-family: sans-serif;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#title{
+    flex-direction: column;
+    line-height: 10px;
+}
+
+li{
+  display: inline-block;
+  margin: 15px;
+}
+
+main{
+
+    display: flex;
+    flex-direction: row;
+    margin-top: 55px;
+}
+ 
+a{
+    color: purple;
+    
+    
+}
+ a:hover::after{
+    color: darkgray;
+    transition: 0.3ms all;
+ }
+
+ #filho{
+    border: 2px solid white;
+    padding: 10px;
+    border-radius: 15px;
+
+ }
+
+ #ja-tem-uma-conta{
+     border: 2px solid white;
+     padding: 10px;
+     border-radius: 15px;
+ }
+
+ #ja-tem-uma-conta:hover{
+     background-color: aqua;
+ }
+
+img{
+    width: 500px;
+
+}
+
+article{
+    margin-top: 70px;
+    margin-left: 200px;
+}
+
+span{
+    color: blue;
+}
+
+p{
+    font-family: poppinslight;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+
+input{
+    margin-top: 15px;
+    height: 30px;
+}
+
+form[tybe="submit"]{
+    height: 20px;
+    width: 50%;
+    background-color: aqua;
+}
